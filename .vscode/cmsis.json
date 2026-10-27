@@ -1,0 +1,10 @@
+{
+    "targetSet": {
+        "STM32H747I-DISCO/Blinky_Disco/Blinky": {
+            "activeTargetType": "STM32H747I-EVAL",
+            "STM32H747I-EVAL": 0
+        }
+    },
+    "activeSolution": "../STM32H747I-DISCO/Blinky_Disco/Blinky.csolution.yml",
+    "activeTarget": "STM32H747I-EVAL@SWO-Trace"
+}

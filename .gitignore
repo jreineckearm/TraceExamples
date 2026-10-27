@@ -1,0 +1,10 @@
+**/.clangd
+**/.trace
+**/out
+**/tmp
+**/*.cbuild-idx.yml
+
+# AI files and directories
+.cmsis-dev/
+.agents/
+.codex/

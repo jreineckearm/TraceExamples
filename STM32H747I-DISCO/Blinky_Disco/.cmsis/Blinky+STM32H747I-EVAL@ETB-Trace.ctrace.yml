@@ -1,0 +1,37 @@
+ctrace:
+  created-by: CMSIS Debugger
+  setup:
+    - pname: CM4
+      core: Cortex-M4
+      disable:
+      timestamps:
+        itm-prescaler: 1
+      timesync:
+        ITM: "128"
+      data:
+      exceptions:
+      events:
+      itm:
+        enable: 0x0
+      pcsampling:
+        period: 0
+      synchronization:
+        DWT: 16M
+    - pname: CM7
+      core: Cortex-M7
+      timestamps:
+        clock: 75000000
+        itm-prescaler: 1
+      timesync:
+        ITM: off
+      data:
+        - location: osRtxInfo.kernel.tick
+          access: W
+      exceptions:
+      events:
+      itm:
+        enable: 0x0
+      pcsampling:
+        period: 16384
+      synchronization:
+        DWT: 16M
